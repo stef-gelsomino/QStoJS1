@@ -1,0 +1,13 @@
+		body 
+		{
+			background-color: #333333;
+		}
+		h1 
+		{
+			color: #cccccc;
+			font-family: 'MedievalSharp', cursive;
+			box-shadow: 10px 10px 50px #e60000;	
+			width: 406px;
+			border: solid 1px;
+			padding: 2px;
+		}
