@@ -1,13 +1,50 @@
 		body 
 		{
-			background-color: #333333;
+			background-color: black;
 		}
 		h1 
 		{
+			color: orange;
+			font-family: 'Bahiana', cursive;
+			margin-top: 50px;
+			font-size: 120px;
+		}
+		img 
+		{
+			position: absolute;
+			margin-left: 900px;
+			margin-top: -270px;
+			width: 200px;
+		}
+		h2 
+		{
+			color: orange;
+		}
+		p 
+		{
+			width: 1000px;
 			color: #cccccc;
-			font-family: 'MedievalSharp', cursive;
-			box-shadow: 10px 10px 50px #e60000;	
-			width: 406px;
-			border: solid 1px;
-			padding: 2px;
+		}
+		table td:nth-of-type(odd) 
+		{
+			color: orange;
+			font-size: x-large;
+		}
+		table td:nth-of-type(even) 
+		{
+			width: 800px;
+			color: #cccccc;
+		}
+		table
+		{
+			border-spacing: 10px;
+		}
+		ul 
+		{
+			color: orange;
+		}
+		.stout 
+		{
+			color: orange;
+			font-style: italic;
 		}
