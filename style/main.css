@@ -2,23 +2,27 @@
 		{
 			background-color: black;
 		}
-		h1 
+		h1
 		{
+			float:left;
 			color: orange;
 			font-family: 'Bahiana', cursive;
-			margin-top: 50px;
-			font-size: 120px;
+			font-size: 150px;
+			margin-top: 19px;	
+			margin-bottom: 35px;
 		}
-		img 
+		img
 		{
-			position: absolute;
-			margin-left: 900px;
-			margin-top: -270px;
-			width: 200px;
+			float: left;
+			width: 10%;
+			margin-top: 5px;
+			margin-left: 5px;
 		}
 		h2 
 		{
 			color: orange;
+			font-family: 'Bahiana', cursive;
+			font-size: 50px;
 		}
 		p 
 		{
@@ -47,4 +51,44 @@
 		{
 			color: orange;
 			font-style: italic;
+		}
+		#clearfix
+		{
+			clear: left;
+			float: left;
+		}
+		#head
+		{
+			align-items: center;
+			margin-left: 280px;
+		}
+		#menu 
+		{
+			list-style-type: none;
+			margin-right: 100px;
+			float: right;
+					
+		}
+		#menu li 
+		{
+			background: orange;
+			display: table;
+		}
+		#menu a 
+		{
+			background-color: orange;
+			font-family: 'Bahiana', cursive;
+			color: black;
+			display: table;
+			border: 2px solid #000;
+			text-decoration: none;
+			text-align: center;
+			font-size: 25px;
+			width: 200px;
+			height: 20px;
+		}
+		#menu ul 
+		{
+			margin-top: -50px;
+			-webkit-padding-start: 0px;
 		}
