@@ -91,3 +91,30 @@ typeof(2 + "2");
 /*
 string
 */
+
+
+/*VARIABLES*/
+
+
+var a = 2;
+/*
+string
+*/
+typeof(a);
+/*
+number
+*/
+var b = 5;
+a + b;
+/*
+7
+*/
+typeof(a + b);
+/*
+number
+*/
+var myName = "Jack";
+alert(myName);
+/*
+undefined
+*/

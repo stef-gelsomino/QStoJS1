@@ -65,8 +65,10 @@
 		#menu 
 		{
 			list-style-type: none;
-			margin-right: 100px;
-			float: right;
+			position: fixed;
+		    left:1500px;
+    		top:300px;
+
 					
 		}
 		#menu li 
@@ -88,6 +90,38 @@
 			height: 20px;
 		}
 		#menu ul 
+		{
+			margin-top: -50px;
+			-webkit-padding-start: 0px;
+		}
+		#navBar 
+		{
+			list-style-type: none;
+			position: fixed;
+		    left:1500px;
+    		top:300px;
+
+					
+		}
+		#navBar li 
+		{
+			background: orange;
+			display: inline;
+		}
+		#navBar a 
+		{
+			background-color: orange;
+			font-family: 'Bahiana', cursive;
+			color: black;
+			display: inline;
+			border: 2px solid #000;
+			text-decoration: none;
+			text-align: center;
+			font-size: 25px;
+			width: 200px;
+			height: 20px;
+		}
+		#navBar ul 
 		{
 			margin-top: -50px;
 			-webkit-padding-start: 0px;
