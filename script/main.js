@@ -118,3 +118,21 @@ alert(myName);
 /*
 undefined
 */
+var myFavoriteMovie = prompt("What is your favorite movie?");
+alert("Your favorite movie is" + " " + myFavoriteMovie + "!");
+var randomNumber = Math.random();
+alert(randomNumber);
+var randomNumber2 = Math.random() * 7;
+alert(randomNumber2);
+
+
+/*CONTROL FLOW*/
+
+
+var answer = prompt("Was ist die Hauptstadt Deutschlands?");
+if(answer === "Berlin"){
+  alert("Richtig! Du gewinnst Currywurst mit Pommes!");
+}
+else{
+  alert("Schade," + " " + answer + " " + "ist falsch...");
+}
