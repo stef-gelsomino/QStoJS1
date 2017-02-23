@@ -24,6 +24,12 @@
 			font-family: 'Bahiana', cursive;
 			font-size: 50px;
 		}
+		h3
+		{
+			color: orange;
+			font-family: 'Bahiana', cursive;
+			font-size: 25px;
+		}
 		p 
 		{
 			width: 1000px;
@@ -47,9 +53,18 @@
 		{
 			color: orange;
 		}
+		a 
+		{
+			text-decoration: none;
+		}
 		.stout 
 		{
 			color: orange;
+			font-style: italic;
+		}
+		.stout2
+		{
+			color: red;
 			font-style: italic;
 		}
 		#clearfix
@@ -121,8 +136,7 @@
 			width: 200px;
 			height: 20px;
 		}
-		#navBar ul 
+		#menu ul:last-of-type li:last-of-type a:last-of-type
 		{
-			margin-top: -50px;
-			-webkit-padding-start: 0px;
+			color: red;
 		}

@@ -136,3 +136,19 @@ if(answer === "Berlin"){
 else{
   alert("Schade," + " " + answer + " " + "ist falsch...");
 }
+var favoriteAnimal = prompt("What is your favorite animal?");
+if(favoriteAnimal === "cat"){
+  alert("Cats are awesome!");
+}
+else if(favoriteAnimal === "Cat"){
+  alert("Cats are awesome!");
+}
+else if(favoriteAnimal === "dog"){
+  alert("Dogs are okay");
+}
+else if(favoriteAnimal === "Dog"){
+  alert("Dogs are okay...");
+}
+else{
+  alert("Good choice!");
+}
