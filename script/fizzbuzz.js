@@ -1,4 +1,4 @@
-/*FIZZBUZZ*/
+/*SIMPLIFIED FIZZBUZZ*/
 
 
 var randomNumber = Math.round( Math.random() * 5 );
